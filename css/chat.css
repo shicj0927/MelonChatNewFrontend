@@ -21,7 +21,7 @@ button{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--theme-color-a);
+    background-color: var(--app-bk);
     overflow: hidden;
     /* border: 1px solid; */
 }
@@ -51,11 +51,11 @@ button{
     padding: 10px;
     /* border: 1px solid #999; */
     border: none;
-    background-color: var(--theme-color-a);
+    background-color: var(--chat-side-bar);
 }
 
 .left-bar-item:hover{
-    background-color: var(--theme-color-b);
+    background-color: var(--chat-side-bar-hover);
 }
 
 .content{

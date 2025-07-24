@@ -25,7 +25,7 @@ input{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--theme-color-a);
+    background-color: var(--app-bk);
     /* border: 1px solid; */
 }
 

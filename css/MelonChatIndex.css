@@ -17,7 +17,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--theme-color-a);
+    background-color: var(--app-bk);
     /* border: 1px solid; */
     overflow: hidden;
 }
@@ -29,7 +29,7 @@ body{
     top: 50%;
     left: 0%;
     transform: translate(0%, -50%);
-    background-color: var(--theme-color-a);
+    background-color: var(--side-bar);
     /* border: 1px solid; */
 }
 
@@ -38,12 +38,12 @@ body{
     height: 60px;
     position: relative;
     border: 1px solid;
-    background-color: var(--theme-color-a);
+    background-color: var(--side-bar);
     border: none;
 }
 
 .left-bar-item:hover{
-    background-color: var(--theme-color-b);
+    background-color: var(--side-bar-hover);
 }
 
 .left-bar-text{
@@ -51,7 +51,7 @@ body{
     text-align: center;
     position: relative;
     border: 1px solid;
-    background-color: var(--theme-color-a);
+    background-color: var(--side-bar);
     border: none;
 }
 

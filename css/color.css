@@ -1,7 +1,36 @@
-:root{
+/* :root{
     --login-bg-color: darkslategrey;
     --button-color: #28e;
     --button-hover-color: #06c;
     --theme-color-a: #d6e6f2;
     --theme-color-b: #b9d7ea;
+} */
+
+:root{
+    /* 登录页背景 */
+    --login-bg-color: darkslategrey;
+    /* 按钮 */
+    --button-color: #28e;
+    /* 按钮，鼠标悬浮 */
+    --button-hover-color: #06c;
+    /* 主题色1 */
+    --theme-color-a: #d6e6f2;
+    /* 主题色2 */
+    --theme-color-b: #b9d7ea;
+    /* 页面背景 */
+    --app-bk: var(--theme-color-a);
+    /* 消息区标题 */
+    --message-head-area: var(--theme-color-b);
+    /* 消息区内容 */
+    --message-body-area: var(--theme-color-a);
+    /* 消息区编辑框 */
+    --message-input-area: var(--theme-color-b);
+    /* 列表 */
+    --chat-side-bar: var(--theme-color-a);
+    /* 列表,鼠标悬浮 */
+    --chat-side-bar-hover: var(--theme-color-b);
+    /* 菜单 */
+    --side-bar: var(--theme-color-a);
+    /* 菜单,鼠标悬浮 */
+    --side-bar-hover: var(--theme-color-b);
 }
