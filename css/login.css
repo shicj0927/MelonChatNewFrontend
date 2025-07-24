@@ -1,3 +1,5 @@
+@import "color.css";
+
 @font-face {
     font-family: 'PageFont';
     src: url('fonts/lxgwwenkaigbscreen.woff') format('truetype');
@@ -5,7 +7,7 @@
 
 body{
     font-family: 'PageFont', sans-serif;
-    background-color: darkslategrey;
+    background-color: var(--login-bg-color);
 }
 
 button{
@@ -23,7 +25,7 @@ input{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #d6e6f2;
+    background-color: var(--theme-color-a);
     /* border: 1px solid; */
 }
 
@@ -45,7 +47,7 @@ input{
     position: absolute;
     top: 70px;
     left: 120px;
-    background-color: #b9d7ea;
+    background-color: var(--theme-color-b);
     /* border: 1px solid; */
 }
 
@@ -56,7 +58,7 @@ input{
     left: 33px;
     position: absolute;
     /* border: 1px solid #666; */
-    background-color: #b9d7ea;
+    background-color: var(--theme-color-b);
 }
 
 .username{
@@ -66,7 +68,7 @@ input{
     left: 33px;
     position: absolute;
     /* border: 1px solid #666; */
-    background-color: #b9d7ea;
+    background-color: var(--theme-color-b);
 }
 
 .login{
@@ -89,7 +91,7 @@ input{
 
 button{
     text-align: center;
-    background-color: #28e;
+    background-color: var(--button-color);
     color: #fff;
     line-height: 32px;
     font-size: 16px;
@@ -97,7 +99,7 @@ button{
 }
 
 button:hover{
-    background-color: #06c;
+    background-color: var(--button-hover-color);
 }
 
 .notice{
@@ -116,12 +118,12 @@ input{
     font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #b9d7ea;
+    background-color: var(--theme-color-b);
     border: none;
     outline: none;
 }
 
 .link{
     text-decoration: none;
-    color: #28e
+    color: var(--button-color);
 }
