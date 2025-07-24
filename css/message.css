@@ -26,6 +26,12 @@ button{
     /* border: 1px solid; */
 }
 
+.area-line{
+    width: 100%;
+    height: 1px;
+    background-color: var(--line);
+}
+
 .head-area{
     width: 100%;
     height: 40px;
@@ -35,13 +41,13 @@ button{
 
 .message-area{
     width: 100%;
-    height: calc(70vh - 28px);
+    height: calc(70vh - 29px);
     background-color: var(--message-body-area);
 }
 
 .input-area{
     width: 100%;
-    height: calc(30vh - 12px);
+    height: calc(30vh - 13px);
     background-color: var(--theme-color-b);
     background-color: var(--message-input-area);
 }

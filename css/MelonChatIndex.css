@@ -61,7 +61,7 @@ body{
     position: relative;
     top: -100%;
     left: 60px;
-    border: 1px solid #999;
+    border: 1px solid var(--line);
 }
 
 i{

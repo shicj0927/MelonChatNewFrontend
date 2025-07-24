@@ -41,7 +41,7 @@ button{
     position: relative;
     top: -100%;
     left: 250px;
-    border: 1px solid #999;
+    border: 1px solid var(--line);
 }
 
 .left-bar-item{

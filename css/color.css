@@ -14,23 +14,25 @@
     /* 按钮，鼠标悬浮 */
     --button-hover-color: #06c;
     /* 主题色1 */
-    --theme-color-a: #d6e6f2;
-    /* 主题色2 */
-    --theme-color-b: #b9d7ea;
+    --theme-color-a: #f2f2f2;
+     /* 主题色2  */
+    --theme-color-b: #e2e2e2;
     /* 页面背景 */
-    --app-bk: var(--theme-color-a);
+    --app-bk: #f2f2f2;
     /* 消息区标题 */
-    --message-head-area: var(--theme-color-b);
+    --message-head-area: #f2f2f2;
     /* 消息区内容 */
-    --message-body-area: var(--theme-color-a);
+    --message-body-area: #f2f2f2;
     /* 消息区编辑框 */
-    --message-input-area: var(--theme-color-b);
+    --message-input-area: #f2f2f2;
+    /* 分界线 */
+    --line: #e2e2e2;
     /* 列表 */
-    --chat-side-bar: var(--theme-color-a);
+    --chat-side-bar: #fff;
     /* 列表,鼠标悬浮 */
-    --chat-side-bar-hover: var(--theme-color-b);
+    --chat-side-bar-hover: #f2f2f2;
     /* 菜单 */
-    --side-bar: var(--theme-color-a);
+    --side-bar: #f2f2f2;
     /* 菜单,鼠标悬浮 */
-    --side-bar-hover: var(--theme-color-b);
+    --side-bar-hover: #e2e2e2;
 }
