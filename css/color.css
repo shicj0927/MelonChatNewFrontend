@@ -37,4 +37,6 @@
     --chat-side-bar-hover: var(--c0);
     /* 会话搜索框 */
     --chat-search-area: var(--c1);
+    /* 用户页上部框 */
+    --user-head-box: var(--c1);
 }
