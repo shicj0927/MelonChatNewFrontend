@@ -14,36 +14,52 @@
                     <a>Chat</a>
                 </div>
                 <br>
-                <button class="left-bar-item">
+                <button class="left-bar-item-0" onclick="buttonClick('chat')" id="chat">
                     <i class="bi bi-chat-left-dots"></i>
                 </button>
-                <button class="left-bar-item">
+                <button class="left-bar-item-1" onclick="buttonClick('user')" id="user">
                     <i class="bi bi-person"></i>
                 </button>
-                <button class="left-bar-item">
+                <button class="left-bar-item-0">
                     <i class="bi bi-hdd"></i>
                 </button>
-                <button class="left-bar-item">
+                <button class="left-bar-item-0">
                 <i class="bi bi-images"></i>
                 </button>
-                <button class="left-bar-item">
+                <button class="left-bar-item-0">
                     <i class="bi bi-clipboard-check"></i>
                 </button>
-                <button class="left-bar-item">
+                <button class="left-bar-item-0">
                     <i class="bi bi-sliders"></i>
                 </button>
-                <button class="left-bar-item">
+                <button class="left-bar-item-0">
                     <i class="bi bi-question-circle"></i>
                 </button>
-                 <button class="left-bar-item">
+                <button class="left-bar-item-0">
                     <i class="bi bi-tools"></i>
                 </button>
             </div>
             <div class="content">
-                <iframe class="content-frame" src="chat.html"></iframe>
+                <iframe class="content-frame" src="user.html" id="iframe"></iframe>
             </div>
             <div class="left-bar-line"></div>
         </div>
-        
+        <script>
+            function buttonClick(o) {
+                fm=document.getElementById("iframe");
+                chat=document.getElementById("chat");
+                user=document.getElementById("user");
+                chat.className="left-bar-item-0";
+                user.className="left-bar-item-0";
+                if(o=="chat"){
+                    chat.className="left-bar-item-1";
+                    fm.src="chat.html";
+                }
+                else if(o=="user"){
+                    user.className="left-bar-item-1";
+                    fm.src="user.html";
+                }
+            }
+        </script>
     </body>
 </html>

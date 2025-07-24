@@ -118,8 +118,8 @@ input{
     font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: var(--theme-color-b);
-    border: none;
+    background-color: var(--c1);
+    border: none; 
     outline: none;
 }
 

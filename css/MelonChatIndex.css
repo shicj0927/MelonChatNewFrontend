@@ -33,7 +33,7 @@ body{
     /* border: 1px solid; */
 }
 
-.left-bar-item{
+.left-bar-item-0{
     width: 60px;
     height: 60px;
     position: relative;
@@ -42,7 +42,20 @@ body{
     border: none;
 }
 
-.left-bar-item:hover{
+.left-bar-item-0:hover{
+    background-color: var(--side-bar-hover);
+}
+
+.left-bar-item-1{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border: 1px solid;
+    background-color: var(--side-bar-hover);
+    border: none;
+}
+
+.left-bar-item-1:hover{
     background-color: var(--side-bar-hover);
 }
 

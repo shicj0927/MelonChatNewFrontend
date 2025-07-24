@@ -7,32 +7,34 @@
 } */
 
 :root{
+    /* 主题色1 */
+    --c0: #f2f2f2;
+    /* 主题色2  */
+    --c1: #e2e2e2;
     /* 登录页背景 */
-    --login-bg-color: darkslategrey;
+    --login-bg-color: #fff;
     /* 按钮 */
     --button-color: #28e;
     /* 按钮，鼠标悬浮 */
     --button-hover-color: #06c;
-    /* 主题色1 */
-    --theme-color-a: #f2f2f2;
-     /* 主题色2  */
-    --theme-color-b: #e2e2e2;
     /* 页面背景 */
-    --app-bk: #f2f2f2;
-    /* 消息区标题 */
-    --message-head-area: #f2f2f2;
-    /* 消息区内容 */
-    --message-body-area: #f2f2f2;
-    /* 消息区编辑框 */
-    --message-input-area: #f2f2f2;
-    /* 分界线 */
-    --line: #e2e2e2;
-    /* 列表 */
-    --chat-side-bar: #fff;
-    /* 列表,鼠标悬浮 */
-    --chat-side-bar-hover: #f2f2f2;
+    --app-bk: var(--c0);
     /* 菜单 */
-    --side-bar: #f2f2f2;
+    --side-bar: var(--c0);
     /* 菜单,鼠标悬浮 */
-    --side-bar-hover: #e2e2e2;
+    --side-bar-hover: var(--c1);
+    /* 消息区标题 */
+    --message-head-area: var(--c0);
+    /* 消息区内容 */
+    --message-body-area: var(--c0);
+    /* 消息区编辑框 */
+    --message-input-area: var(--c0);
+    /* 消息区分界线 */
+    --line: var(--c1);
+    /* 会话列表 */
+    --chat-side-bar: #fff;
+    /* 会话列表,鼠标悬浮 */
+    --chat-side-bar-hover: var(--c0);
+    /* 会话搜索框 */
+    --chat-search-area: var(--c1);
 }
