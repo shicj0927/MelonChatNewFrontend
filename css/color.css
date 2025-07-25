@@ -22,7 +22,8 @@
     /* 删除按钮，鼠标悬浮 */
     --button-remove-hover: #b00;
     /* 页面背景 */
-    --app-bk: var(--c0);
+    /* --app-bk: var(--c0); */
+    --app-bk: #fff;
     /* 菜单 */
     --side-bar: var(--c0);
     /* 菜单,鼠标悬浮 */
@@ -30,7 +31,7 @@
     /* 消息区标题 */
     --message-head-area: var(--c0);
     /* 消息区内容 */
-    --message-body-area: var(--c0);
+    --message-body-area: #fff;
     /* 消息区编辑框 */
     --message-input-area: var(--c0);
     /* 消息区分界线 */
@@ -42,5 +43,5 @@
     /* 会话搜索框 */
     --chat-search-area: var(--c1);
     /* 用户页上部框 */
-    --user-head-box: var(--c1);
+    --user-head-box: var(--c0);
 }
