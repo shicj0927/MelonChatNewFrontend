@@ -11,6 +11,8 @@
     --c0: #f2f2f2;
     /* 主题色2  */
     --c1: #e2e2e2;
+    /* 默认输入框 */
+    --def-input-area: var(--c1);
     /* 登录页背景 */
     --login-bg-color: #fff;
     /* 按钮 */

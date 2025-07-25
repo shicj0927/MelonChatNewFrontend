@@ -23,13 +23,13 @@
                 <button class="left-bar-item-0" onclick="buttonClick('files')" id="files">
                     <i class="bi bi-hdd"></i>
                 </button>
-                <button class="left-bar-item-0">
+                <button class="left-bar-item-0" onclick="buttonClick('images')" id="images">
                 <i class="bi bi-images"></i>
                 </button>
-                <button class="left-bar-item-0">
+                <button class="left-bar-item-0" onclick="buttonClick('pastes')" id="pastes">
                     <i class="bi bi-clipboard-check"></i>
                 </button>
-                <button class="left-bar-item-0">
+                <button class="left-bar-item-0" onclick="buttonClick('settings')" id="settings">
                     <i class="bi bi-sliders"></i>
                 </button>
                 <button class="left-bar-item-0">
@@ -50,9 +50,15 @@
                 chat=document.getElementById("chat");
                 user=document.getElementById("user");
                 files=document.getElementById("files");
+                images=document.getElementById("images");
+                pastes=document.getElementById("pastes");
+                settings=document.getElementById("settings");
                 chat.className="left-bar-item-0";
                 user.className="left-bar-item-0";
                 files.className="left-bar-item-0";
+                images.className="left-bar-item-0";
+                pastes.className="left-bar-item-0";
+                settings.className="left-bar-item-0";
                 if(o=="chat"){
                     chat.className="left-bar-item-1";
                     fm.src="chat.html";
@@ -64,6 +70,18 @@
                 else if(o=="files"){
                     files.className="left-bar-item-1";
                     fm.src="files.html";
+                }
+                else if(o=="images"){
+                    images.className="left-bar-item-1";
+                    fm.src="images.html";
+                }
+                else if(o=="pastes"){
+                    pastes.className="left-bar-item-1";
+                    fm.src="pastes.html";
+                }
+                else if(o=="settings"){
+                    settings.className="left-bar-item-1";
+                    fm.src="settings.html"
                 }
             }
         </script>
