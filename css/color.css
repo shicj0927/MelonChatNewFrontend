@@ -17,6 +17,10 @@
     --button-color: #28e;
     /* 按钮，鼠标悬浮 */
     --button-hover-color: #06c;
+    /* 删除按钮 */
+    --button-remove: #d00;
+    /* 删除按钮，鼠标悬浮 */
+    --button-remove-hover: #b00;
     /* 页面背景 */
     --app-bk: var(--c0);
     /* 菜单 */

@@ -52,7 +52,7 @@ input{
     position: absolute;
     top: 20px;
     left: 10px;
-    background-color: goldenrod;
+    border: 1px solid #000;
 }
 
 .username{
