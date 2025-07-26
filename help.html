@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MelonChat</title>
+        <link rel="stylesheet" href="css/help.css">
+        <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <div class="app">
+            <div class="title-box">
+                Melon Chat 帮助文档
+            </div>
+            <div class="content-box">
+                <h2>1. 关于 Melon Chat</h2>
+                <p>Melon Chat 是用于局域网的聊天应用，支持私信、文件、图片、云剪贴板等功能，完全本地部署，不依赖任何 CDN，可以在机房断网的情况下使用。</p>
+                <p>Github 项目地址：<a href="https://github.com/shicj0927/MelonChat">https://github.com/shicj0927/MelonChat</a></p>
+                <p>当前版本：Melon Chat Frontend Preview [非发布版本]</p>
+                <h2>2. 聊天室</h2>
+                <p>Melon Chat 默认建立一个公共聊天室，暂时不支持群聊，聊天室可以发送文件、图片，可以使用 Markdown 和 Latex 格式化消息文本，消息发出后不可撤回。</p>
+                <h2>3. 私信</h2>
+                <p>私信支持聊天室可发送的所有内容，发送后不可删除，对非接收者不可见，普通管理员（admin）不可查看，最高管理员（root）有权调取和清除。</p>
+                <h2>4. 文件管理</h2>
+                <p>支持上传和下载文件，当前版本不限制总量，单个文件不得大于 200MB，不建议上传大文件，过大的文件可能导致前端卡死。文件支持重命名和删除，原则上删除后不可恢复，确有需要可以联系任何管理员。</p>
+                <p>禁止滥用文件功能，如试图上传总量巨大的无意义文件等，这将导致文件上传权限被撤销。</p>
+                <h2>5. 图片管理</h2>
+                <p>大小限制 50MB，其余与文件相同。</p>
+                <h2>6. 云剪贴板</h2>
+                <p>可以选择私有或公开，使用 Markdown 和 Latex 格式化，删除后原则上不可恢复，确有需要可以联系任何管理员。</p>
+                <h2>7. 个人设置</h2>
+                <p>可以修改个性签名和主页，主页使用 Markdown 和 Latex 格式化。支持修改用户密码，用户名固定不可修改。</p>
+                <h2>8. 系统管理</h2>
+                <p>管理员分为 admin 和 root 两个级别，root 级管理员为用户 root（uid=1），可以直接操作数据库和对系统进行一切修改，admin 级管理员由 root 授予和撤销，可以对不合规的内容进行删除，对错误删除的内容进行恢复。</p>
+                <h2>9. 部署说明</h2>
+                <p>系统使用 Python3 的 Flask 和 pymysql 作为后端，MySQL 作为数据库，前端为纯 js 和 css 实现，放弃兼容过于老旧的浏览器（如 IE），详细部署过程请查看 Github 项目页。</p>
+                <h2>10. 致谢</h2>
+                <p>感谢洛谷开发集团提供的开源 Markdown 和 Latex 编辑器：<a href="https://github.com/luogu-dev/markdown-palettes">markdown-palettes</a></p>
+            </div>
+        </div>
+    </body>
+</html>
