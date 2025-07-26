@@ -11,6 +11,8 @@
     --c0: #f2f2f2;
     /* 主题色2  */
     --c1: #e2e2e2;
+    /* 主题色3  */
+    --c2: #d2d2d2;
     /* 默认输入框 */
     --def-input-area: var(--c1);
     /* 登录页背景 */
@@ -33,9 +35,17 @@
     /* 消息区标题 */
     --message-head-area: var(--c0);
     /* 消息区内容 */
-    --message-body-area: #fff;
+    --message-body-area: var(--c0);
     /* 消息区编辑框 */
     --message-input-area: var(--c0);
+    /* 发送消息框背景 */
+    --msg-send-b: #09f;
+    /* 发送消息框前景 */
+    --msg-send-f: #fff;
+    /* 接收消息框背景 */
+    --msg-rec-b: #fff;
+    /* 接收消息框前景 */
+    --msg-rec-f: #000;
     /* 消息区分界线 */
     --line: var(--c1);
     /* 会话列表 */

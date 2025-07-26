@@ -151,6 +151,10 @@ input{
     background-color: var(--button-hover-color);
 }
 
+.btn-blue:active{
+    background-color: var(--button-color);
+}
+
 .btn-red{
     width: 49px;
     height: 30px;
@@ -167,4 +171,8 @@ input{
 
 .btn-red:hover{
     background-color: var(--button-remove-hover);
+}
+
+.btn-red:active{
+    background-color: var(--button-remove);
 }

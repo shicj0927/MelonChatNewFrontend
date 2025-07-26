@@ -91,3 +91,7 @@ input{
 .btn-blue:hover{
     background-color: var(--button-hover-color);
 }
+
+.btn-blue:active{
+    background-color: var(--button-color);
+}
